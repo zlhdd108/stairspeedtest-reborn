@@ -52,7 +52,7 @@ jobs:
         
   windows64_build:
     name: Windows x86_64 Build
-    runs-on: windows-latest
+    runs-on: windows-2016
     defaults:
       run:
         shell: msys2 {0}
@@ -97,7 +97,7 @@ jobs:
         path: stairspeedtest/
   windows32_build:
     name: Windows x86 Build
-    runs-on: windows-latest
+    runs-on: windows-2016
     defaults:
       run:
         shell: msys2 {0}
